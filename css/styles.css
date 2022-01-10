@@ -45,6 +45,8 @@ button {
 .section-1 {
     background-color: #1f2937;
     padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -60,21 +62,100 @@ button {
 }
 
 .planets {
-    height: auto;
-    width: 100px;
+    height: 150px;
+    width: auto;
+    display: block;
+    border-radius: 10%;
+    border: solid 2px blue;
 }
 
 .section-2 {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
     justify-content: center;
-}
+    padding: 100px;
 
-.planets {
-    display: block;
 }
 
 .blurbs {
     display: block;
+}
+
+.earth {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mars {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.moon {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.saturn {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.info {
+    text-align: center;
+    padding-top: 50px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.section-3 {
+    padding: 50px;
+    text-align: center;
+    background-color: #e5e7eb;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:  #1f2937;
+}
+
+.section-4 {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+
+    background-color: #3882f6;
+    width: 700px;
+}
+
+.sign-up{
+    padding: 50px;
+}
+
+.sign-up-button{
+    display: flex;
+    flex: 1;
+    margin-bottom: 100px;
+    padding-left: 500px;
+    
+}
+
+.big {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e5e7eb
+}
+
+.small {
+    font-size: 18px;
+    color: #e5e7eb;
 }
